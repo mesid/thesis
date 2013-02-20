@@ -1,0 +1,155 @@
+% resume.tex
+% (c) 2011 Arun Chaganty <arunchaganty@gmail.com>
+% http://arun.chagantys.org/
+
+% You can add the option 'web'
+\documentclass[letterpaper,11pt]{resume}
+\usepackage{multicol}
+\author{Siddhant Sunilkumar Mutha}
+\website{(+91) 8144012020}
+\email{siddhantmutha@gmail.com}
+\address{\#138, Saraswathi Hostel, IIT Madras}
+
+
+% I like circles instead of - 
+\renewcommand{\labelitemii}{$\circ$}
+\begin{document}
+\resumeheader
+
+
+\section{Education}
+\begin{itemize}
+    \credential
+    {{Indian Institute of Technology Madras}}
+    {Chennai, India}
+    {{BTech./MTech. in Computer Science
+      and Engineering}; {{\bf CGPA:} XX/10}
+      }
+    {Aug. 2011 -- Present}
+    \bigskip
+   \credential
+    {{Deogiri Junior College}}
+    {Aurangabad, India}
+    {{Class XII}; {{\bf Total:} 83.66\%}
+     }
+    {2010}
+   \bigskip
+   \credential
+    {{Nath Valley School}}
+    {Aurangabad, India}
+    {{Class X}; {{\bf Total:} 91.20\%}}
+    {2008}
+   \bigskip 
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%
+%coursework
+\section{Course Work}
+\begin{multicols}{2}
+{{ \begin{itemize}
+      
+      \item{\bf Key Courses:}
+      {\begin{itemize}
+        \item  {Switching Theory and Digital Logic}
+	\item {Basic Graph Theory}
+	\item {Discrete Mathematics for Computer Science}
+	\end{itemize}
+      }	
+      \end{itemize}
+    }
+ \begin{itemize}
+ \item {\bf Key Labs:}
+ {
+  \begin{itemize}
+    \item {C Programming Lab}
+    \item {Digital Design Lab}
+  \end{itemize}
+ }
+\end{itemize}
+%\bigskip
+\vspace{5em}
+%\columnbreak
+%\vfill\eject
+{\begin{itemize}
+       \item{\bf Key Courses (Currently Enrolled):}
+      {
+      \begin{itemize}
+       \item {Computer Organization}
+       \item {Data Structures and Algorithms}
+       \item Principles of Communication 
+       \item Languages, Machines and Computations
+       \item Probability, Statistics and Stochastic Process
+        \end{itemize}
+
+      }
+      \end{itemize}
+    }}
+    {
+
+}{
+\begin{itemize}
+ \item {\bf Key Labs (Currently Enrolled):}
+ {
+  \begin{itemize}
+    \item Advanced Programming Lab (C++)
+    \item Assembly Language Lab
+     \end{itemize}
+ }
+\end{itemize}
+
+}
+%end coursework
+
+\end{multicols}
+
+
+%%%%%%%%%%%%%%%%%%
+
+\section{Achievements \& Awards}
+\begin{itemize}
+  \item {\bf Yahoo! HackU 2012:} Special Mention Prize
+  \item {\bf IIT JEE 2011: }All India Rank 342 
+  \item {\bf Nath Valley School, 2007:} Awarded the best software project for implementing a library management system using Visual Basic
+  \item {\bf National Cyber Olympiad} 
+    \begin{itemize}
+     \item {\bf Class XI:} All India Rank 145 (Level 1)
+     \item {\bf Class X:} All India Rank 312 (Level 1) and All India Rank 316 (Level 2) 
+    \end{itemize}
+  \item {\bf National Science Olympiad}
+    \begin{itemize}
+      \item {\bf Class X:} All India Rank 260 (Level 1) and All India Rank 466 (Level 2) 
+    \end{itemize}
+  \end{itemize}  % End Achievements list
+%%%%%%%%%%%%%%%%%%%%%%
+%\pagebreak
+\section{Skills}
+\begin{itemize}
+  \item {\bf Languages:} C/C++, Visual Basic, Verilog, x86 Assembly, HTML, CSS, PHP, JavaScript	
+  \item {\bf Operating Systems:} Proficient in Windows and Linux
+  \item {\bf Software Development:} Android (Java and PhoneGap)
+  \item {\bf Tools:} Emacs, Git, GDB, Bash
+\end{itemize} % End Skills list
+\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\begin{itemize}
+ \item Part of a three member team desgining a student oriented website for institute
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Co-curricular Activities}
+\begin{itemize}
+  \item {\bf Coordinator, Hackfest, Shaastra 2013\footnote{Shaastra is IIT Madras' student-run technical festival}: } Organized a FOSS workshop involving four projects (KDE, Tor, Mediawiki and GNU Mailman) for 50 participants, mentored by people who had done GSoC\footnote{Google Summer of Code} in the respective projects.
+  \end{itemize} 
+   \begin{itemize}
+  \item {\bf Institute Mobile Operations Team:} Part of a 6 member team developing a cross-platform mobile application for the institute
+  \end{itemize} 
+  % End PoR
+\section{Extra Curricular Activities}
+\begin{itemize}
+ \item {\bf Tabla} Cleared Level 1 of ABGMM\footnote{Akhil Bhartiya Gandharva Mahavidyalaya Mandal, Mumbai} exam
+\end{itemize}
+
+\end{document}
+

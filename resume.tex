@@ -11,6 +11,7 @@
 \address{\#138, Saraswathi Hostel, IIT Madras}
 % I like circles instead of - 
 \renewcommand{\labelitemii}{$\circ$}
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext} 
 \begin{document}
 \resumeheader
 \section{Education}
@@ -44,11 +45,16 @@
 \begin{multicols}{2}
 {{ \begin{itemize}
     \item{\bf Key Courses:}
-      {\begin{itemize}
+     {\begin{itemize}
         \item  {Switching Theory and Digital Logic}
 	\item {Basic Graph Theory}
 	\item {Discrete Mathematics for Computer Science}
-	\end{itemize}
+	\item {Computer Organization*}
+        \item {Data Structures and Algorithms}*
+        \item Principles of Communication*
+        \item Languages, Machines and Computations*
+        \item Probability, Statistics and Stochastic Process*
+      \end{itemize}
       }	
       \end{itemize}
     }
@@ -58,6 +64,8 @@
   \begin{itemize}
     \item {C Programming Lab}
     \item {Digital Design Lab}
+    \item Advanced Programming Lab (C++)* \let\thefootnote\relax\footnotetext{*Currently Enrolled} 
+    \item Assembly Language Lab* 
   \end{itemize}
  }
 \end{itemize}
@@ -65,32 +73,28 @@
 \vspace{5em}
 %\columnbreak
 %\vfill\eject
-{\begin{itemize}
-       \item{\bf Key Courses (Currently Enrolled):}
-      {
-      \begin{itemize}
-       \item {Computer Organization}
-       \item {Data Structures and Algorithms}
-       \item Principles of Communication 
-       \item Languages, Machines and Computations
-       \item Probability, Statistics and Stochastic Process
-        \end{itemize}
-      }
-      \end{itemize}
-    }}
-    {
-}{
-\begin{itemize}
- \item {\bf Key Labs (Currently Enrolled):}
- {
-  \begin{itemize}
-    \item Advanced Programming Lab (C++)*\footnotetext{*gggggggg}
-    \item Assembly Language Lab
-     \end{itemize}
- }
-\end{itemize}
-}
+%{\begin{itemize}
+%       \item{\bf Key Courses (Currently Enrolled):}
+%      {
+%      \begin{itemize}
+%%       
+%        \end{itemize}
+%%      }
+%      \end{itemize}
+%    }}
+%    {
+%}{
+%\begin{itemize}
+% \item {\bf Key Labs (Currently Enrolled):}
+% {
+%  \begin{itemize}
+%    
+%     \end{itemize}
+% }
+%\end{itemize}
+%}
 %end coursework
+}
 \end{multicols}
 %%%%%%%%%%%%%%%%%%
 \section{Achievements \& Awards}

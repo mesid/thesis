@@ -9,14 +9,11 @@
 \website{(+91) 8144012020}
 \email{siddhantmutha@gmail.com}
 \address{\#138, Saraswathi Hostel, IIT Madras}
-
-
 % I like circles instead of - 
 \renewcommand{\labelitemii}{$\circ$}
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext} 
 \begin{document}
 \resumeheader
-
-
 \section{Education}
 \begin{itemize}
     \credential
@@ -42,14 +39,12 @@
    \bigskip 
 
 \end{itemize}
-
 %%%%%%%%%%%%%%%%%%
 %coursework
 \section{Course Work}
 \begin{multicols}{2}
 {{ \begin{itemize}
-      
-      \item{\bf Key Courses:}
+    \item{\bf Key Courses:}
       {\begin{itemize}
         \item  {Switching Theory and Digital Logic}
 	\item {Basic Graph Theory}
@@ -81,34 +76,30 @@
        \item Languages, Machines and Computations
        \item Probability, Statistics and Stochastic Process
         \end{itemize}
-
       }
       \end{itemize}
     }}
     {
-
 }{
 \begin{itemize}
  \item {\bf Key Labs (Currently Enrolled):}
  {
   \begin{itemize}
-    \item Advanced Programming Lab (C++)
-    \item Assembly Language Lab
+    \item Advanced Programming Lab (C++)* \blfootnote gggggggg
+    \item Assembly Language Lab \blf
      \end{itemize}
  }
 \end{itemize}
-
 }
 %end coursework
-
 \end{multicols}
-
-
 %%%%%%%%%%%%%%%%%%
-
 \section{Achievements \& Awards}
 \begin{itemize}
   \item {\bf Yahoo! HackU 2012:} Special Mention Prize
+    \begin{itemize}
+     \item Built a tool to crawl through an event database using YQL and jQuery
+    \end{itemize}
   \item {\bf IIT JEE 2011: }All India Rank 342 
   \item {\bf Nath Valley School, 2007:} Awarded the best software project for implementing a library management system using Visual Basic
   \item {\bf National Cyber Olympiad} 
@@ -134,7 +125,7 @@
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
 \begin{itemize}
- \item Part of a three member team desgining a student oriented website for institute
+ \item Designing a student oriented website for institute
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -143,12 +134,12 @@
   \item {\bf Coordinator, Hackfest, Shaastra 2013\footnote{Shaastra is IIT Madras' student-run technical festival}: } Organized a FOSS workshop involving four projects (KDE, Tor, Mediawiki and GNU Mailman) for 50 participants, mentored by people who had done GSoC\footnote{Google Summer of Code} in the respective projects.
   \end{itemize} 
    \begin{itemize}
-  \item {\bf Institute Mobile Operations Team:} Part of a 6 member team developing a cross-platform mobile application for the institute
+  \item {\bf Institute Mobile Operations Team:} Developing a cross-platform mobile application for the institute
   \end{itemize} 
   % End PoR
 \section{Extra Curricular Activities}
 \begin{itemize}
- \item {\bf Tabla} Cleared Level 1 of ABGMM\footnote{Akhil Bhartiya Gandharva Mahavidyalaya Mandal, Mumbai} exam
+ \item {\bf Tabla:} Cleared Level 1 of ABGMM\footnote{Akhil Bhartiya Gandharva Mahavidyalaya Mandal, Mumbai} exam
 \end{itemize}
 
 \end{document}

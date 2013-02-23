@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.16)  20 FEB 2013 20:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.16)  23 FEB 2013 18:13
 entering extended mode
  %&-line parsing enabled.
 **resume.tex
@@ -286,33 +286,33 @@ Overfull \hbox (13.29999pt too wide) in paragraph at lines 44--44
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 67.
+(Font)              <9> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 67.
+(Font)              <5> on input line 71.
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 100--100
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 104--104
 [][][][][][][] 
  []
 
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 120--120
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 124--124
 [][][][][][] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 129--129
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 133--133
 [][][][][][] 
  []
 
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 135--135
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 139--139
 [][][][][][][] 
  []
 
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 143--143
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 147--147
 [][][][][][] 
  []
 
@@ -332,7 +332,7 @@ xmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb>
-Output written on resume.pdf (2 pages, 102023 bytes).
+Output written on resume.pdf (2 pages, 102033 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

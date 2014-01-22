@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.16)  23 FEB 2013 18:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.16)  22 JAN 2014 11:51
 entering extended mode
  %&-line parsing enabled.
 **resume.tex
@@ -216,20 +216,20 @@ Package: multicol 1996/01/13 v1.5l multicolumn formatting (FMi)
 (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
@@ -243,7 +243,7 @@ LaTeX Font Info:    ... okay on input line 15.
 \MPnumerator=\count107
 \everyMPtoPDFconversion=\toks17
 )
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 16.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -252,8 +252,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
  (./resume.out)
 (./resume.out)
 \@outlinefile=\write3
@@ -261,80 +261,81 @@ LaTeX Info: Redefining \pageref on input line 15.
 
 \AtBeginShipoutBox=\box52
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 16.
+(Font)              <10.95> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 16.
+(Font)              <6> on input line 17.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 17.
  (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 17--17
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 18--18
 [][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 30.
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 44--44
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 49--49
 [][][][][][] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 71.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 71.
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 104--104
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 123--123
 [][][][][][][] 
- []
-
-
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 124--124
-[][][][][][] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 133--133
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 143--143
 [][][][][][] 
  []
 
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 139--139
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 152--152
+[][][][][][] 
+ []
+
+
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 198--198
 [][][][][][][] 
  []
 
 
-Overfull \hbox (13.29999pt too wide) in paragraph at lines 147--147
+Overfull \hbox (13.29999pt too wide) in paragraph at lines 206--206
 [][][][][][] 
  []
 
 [2] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 4409 strings out of 495061
- 64842 string characters out of 1182621
- 141603 words of memory out of 3000000
- 7529 multiletter control sequences out of 15000+50000
- 8744 words of font info for 34 fonts, out of 3000000 for 9000
+ 4411 strings out of 495061
+ 64861 string characters out of 1182621
+ 143631 words of memory out of 3000000
+ 7530 multiletter control sequences out of 15000+50000
+ 9052 words of font info for 35 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,8n,23p,355b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,8n,23p,355b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb>
-Output written on resume.pdf (2 pages, 102033 bytes).
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on resume.pdf (2 pages, 124908 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

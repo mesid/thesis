@@ -6,9 +6,10 @@
 \documentclass[letterpaper,11pt]{resume}
 \usepackage{multicol}
 \author{Siddhant Sunilkumar Mutha}
-\website{(+91) 8144012020}
-\email{siddhantmutha@gmail.com}
-\address{\#138, Saraswathi Hostel, IIT Madras}
+\website{http://www.siddhantmutha.com}
+\email{me@siddhantmutha.com}
+
+\address{\#255, Saraswathi Hostel, IIT Madras ~+91 8144012020}
 % I like circles instead of - 
 \renewcommand{\labelitemii}{$\circ$}
 \def\blfootnote{\xdef\@thefnmark{}\@footnotetext} 
@@ -20,9 +21,13 @@
     {{Indian Institute of Technology Madras}}
     {Chennai, India}
     {{BTech./MTech. in Computer Science
-      and Engineering}; {{\bf CGPA:} XX/10}
+      and Engineering}; {{\bf CGPA:} 7.7/10}
       }
     {Aug. 2011 -- Present}
+ { \begin{itemize}
+      \item{Major: \textbf{Computer Science and Engineering}; Minor: \textbf{Micro Electronics}}
+      \end{itemize}
+    }
     \bigskip
    \credential
     {{Deogiri Junior College}}
@@ -45,11 +50,21 @@
 \begin{multicols}{2}
 {{ \begin{itemize}
     \item{\bf Key Courses:}
-      {\begin{itemize}
+     {\begin{itemize}
+        \item Probability, Statistics and Stochastic Processes
+	\item Languages, Machines and Computations
+   
+	\item {Computer Organization}
+        
+        \item {Data Structures and Algorithms}
+        \item Principles of Communication
+        
         \item  {Switching Theory and Digital Logic}
 	\item {Basic Graph Theory}
 	\item {Discrete Mathematics for Computer Science}
-	\end{itemize}
+	
+        
+           \end{itemize}
       }	
       \end{itemize}
     }
@@ -57,8 +72,11 @@
  \item {\bf Key Labs:}
  {
   \begin{itemize}
+    \item Advanced Programming Lab (C++) \let\thefootnote\relax\footnotetext{*Currently Enrolled} 
+    \item Assembly Language Lab
     \item {C Programming Lab}
     \item {Digital Design Lab}
+     
   \end{itemize}
  }
 \end{itemize}
@@ -66,32 +84,28 @@
 \vspace{5em}
 %\columnbreak
 %\vfill\eject
-{\begin{itemize}
-       \item{\bf Key Courses (Currently Enrolled):}
-      {
-      \begin{itemize}
-       \item {Computer Organization}
-       \item {Data Structures and Algorithms}
-       \item Principles of Communication 
-       \item Languages, Machines and Computations
-       \item Probability, Statistics and Stochastic Process
-        \end{itemize}
-      }
-      \end{itemize}
-    }}
-    {
-}{
-\begin{itemize}
- \item {\bf Key Labs (Currently Enrolled):}
- {
-  \begin{itemize}
-    \item Advanced Programming Lab (C++)* \blfootnote gggggggg
-    \item Assembly Language Lab \blf
-     \end{itemize}
- }
-\end{itemize}
-}
+%{\begin{itemize}
+%       \item{\bf Key Courses (Currently Enrolled):}
+%      {
+%      \begin{itemize}
+%%       
+%        \end{itemize}
+%%      }
+%      \end{itemize}
+%    }}
+%    {
+%}{
+%\begin{itemize}
+% \item {\bf Key Labs (Currently Enrolled):}
+% {
+%  \begin{itemize}
+%    
+%     \end{itemize}
+% }
+%\end{itemize}
+%}
 %end coursework
+}
 \end{multicols}
 %%%%%%%%%%%%%%%%%%
 \section{Achievements \& Awards}
@@ -116,17 +130,58 @@
 %\pagebreak
 \section{Skills}
 \begin{itemize}
-  \item {\bf Languages:} C/C++, Visual Basic, Verilog, x86 Assembly, HTML, CSS, PHP, JavaScript	
+  \item {\bf Languages:} C/C++, Python, Visual Basic, Verilog(Basics), x86 Assembly(Basics), HTML, CSS, PHP, JavaScript	
   \item {\bf Operating Systems:} Proficient in Windows and Linux
-  \item {\bf Software Development:} Android (Java and PhoneGap)
-  \item {\bf Tools:} Emacs, Git, GDB, Bash
-\end{itemize} % End Skills list
+  \item {\bf Software Development:} Android (Java and PhoneGap; Basics)
+  \item {\bf Tools:} Emacs, Git
+  \item {\bf Others:} Tornado(Basics), MongoDB(Basics)
+  \end{itemize} % End Skills list
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
 \begin{itemize}
- \item Designing a student oriented website for institute
+   \credential
+    {{Events App}}
+    {Chennai, India}
+    {Self Project (In Progress)}
+    {2013}
+    {
+     \begin{itemize}
+      \item Developing an events accumulating web application, which collects events from multiple pubilc sources and displays them in a chronological order.
+     \end{itemize}
+
+    }
+    
+   \bigskip 
+
+   
+   \credential
+    {{Gamification Rule Engine}}
+    {Pune, India}
+    {{Siminars, Inc.}}
+    {May. 2013 -- July, 2013}
+ { \begin{itemize}
+      \item{Built a rule engine for the implementation of gamification throughout siminars.com}
+      \end{itemize}
+    }
+    \bigskip
+   \credential
+    {{CloudXCloud}}
+    {IIT Madras}
+    {{Yahoo! HackU 2013}}
+    {2013} 
+    {\begin{itemize}
+     \item Developed a GUI application for managing Google Drive and Dropbox accounts simultaneosly, which also allowed for transferring of files amongst the two services.
+    \end{itemize}
+}
+   \bigskip
+   
 \end{itemize}
+
+%\begin{itemize}
+ %  \credential {{CloudXCloud}}
+  %\item Designing an events accumulating website (In progress)
+%\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Co-curricular Activities}

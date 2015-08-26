@@ -142,26 +142,42 @@
 \pagebreak
 \section{Skills}
 \begin{itemize}
-  \item {\bf Languages:} C/C++, Python, Java, Visual Basic, Verilog(Basics), x86 Assembly(Basics), HTML, CSS, PHP, JavaScript	
+  \item {\bf Languages:} C/C++, Python, Java, Cilk Plus, Visual Basic, x86 Assembly(Basics), HTML, CSS, PHP, JavaScript	
   \item {\bf Operating Systems:} Proficient in Windows and Linux
-  \item {\bf Software Development:} Android (Java and PhoneGap; Basics)
+  \item {\bf Software Development:} Android (Java and PhoneGap; Basics), Windows Phone
   \item {\bf Tools:} Emacs, Git
   \item {\bf Others:} Tornado(Basics), MongoDB(Basics)
   \end{itemize} % End Skills list
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
 \begin{itemize}
+   
+   \credential
+    {{Note It}}
+    {IIT Madras}
+    {Microsft code.fun.do Hackathon}
+    {January, 2014}
+    {
+     \begin{itemize}
+      \item Developed a Windows Phone app, in a team of four,  which allows one to type notes while it records audio in the background. This audio can later be seeked by tapping on a particular word in the saved notes.
+     \end{itemize}
+
+    }
+   \bigskip 
+   
+   
    \credential
     {{Events App}}
-    {Chennai, India}
+    {IIT Madras}
     {Self Project (In Progress)}
     {2013}
     {
      \begin{itemize}
-      \item Developing an events accumulating web application, which collects events from multiple public sources and displays them in a chronological order.
+      \item Developing a web application, which collects events from multiple public sources and displays them in a chronological order.
      \end{itemize}
 
     }
+    
     
    \bigskip 
 
@@ -170,9 +186,9 @@
     {{Gamification Rule Engine}}
     {Pune, India}
     {{Siminars, Inc.}}
-    {May. 2013 -- July, 2013}
+    {May 2013 -- July, 2013}
  { \begin{itemize}
-      \item{Built a rule engine for the implementation of gamification throughout siminars.com}
+      \item{Built a rule engine for the implementation of gamification on siminars.com}
       \end{itemize}
     }
     \bigskip

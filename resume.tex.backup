@@ -3,39 +3,73 @@
 % http://arun.chagantys.org/
 
 % You can add the option 'web'
-\documentclass[letterpaper,11pt]{resume}
+\documentclass[letterpaper,10pt]{resume}
 \usepackage{multicol}
-\author{Siddhant Sunilkumar Mutha}
-\website{http://www.siddhantmutha.com}
-\email{me@siddhantmutha.com}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
 
-\address{\#255, Saraswathi Hostel, IIT Madras ~+91 8144012020}
+\author{Siddhant Sunilkumar Mutha}
+
+
+\website{http://www.siddhantmutha.com}
+\email{siddhantmutha@gmail.com}
+
+%\address{\#412, Saraswathi Hostel, IIT Madras ~+91 8144012020}
+\rollno{CS11B048}
+
 % I like circles instead of - 
 \renewcommand{\labelitemii}{$\circ$}
 \def\blfootnote{\xdef\@thefnmark{}\@footnotetext} 
 \begin{document}
-\resumeheader
+
+%\resumeheader
+
+
+\raisebox{0ex}{
+%\begin{figure}[]
+%\includegraphics[scale=0.25, right]{logo.png} 
+%\end{figure}
+}
+
+% screw the \resumeheader 
+\noindent\begin{minipage}{\textwidth}
+\begin{minipage}[c]{0.75\textwidth}
+\textbf{ Siddhant Sunilkumar Mutha} \\
+    {CS11B048} 
+
+\end{minipage}\hfill
+\begin{minipage}[c]{0.25\textwidth}
+     \includegraphics[scale=0.25, right]{logo.png} 
+\end{minipage}%
+\end{minipage}
+
+
+    
+
+  %\end{tabular*}
+  \vspace{0.1in}
+
 \section{Education}
 \begin{itemize}
     \credential
     {{Indian Institute of Technology Madras}}
     {Chennai, India}
     {{BTech./MTech. in Computer Science
-      and Engineering}; {{\bf CGPA:} 7.7/10}
+      and Engineering}; {{\bf CGPA:} 7.84/10}
       }
     {Aug. 2011 -- Present}
  { \begin{itemize}
       \item{Major: \textbf{Computer Science and Engineering}; Minor: \textbf{Micro Electronics}}
       \end{itemize}
     }
-    \bigskip
+%     \bigskip
    \credential
     {{Deogiri Junior College}}
     {Aurangabad, India}
     {{Class XII}; {{\bf Total:} 83.66\%}
      }
     {2010}
-   \bigskip
+    \bigskip
    \credential
     {{Nath Valley School}}
     {Aurangabad, India}
@@ -46,44 +80,79 @@
 \end{itemize}
 %%%%%%%%%%%%%%%%%%
 %coursework
-\section{Course Work}
+\section{Coursework}
 \begin{multicols}{2}
 {{ \begin{itemize}
-    \item{\bf Key Courses:}
+    \item{\bf System Design Courses:}
      {\begin{itemize}
-        \item Probability, Statistics and Stochastic Processes
-	\item Languages, Machines and Computations
-   
-	\item {Computer Organization}
-        
-        \item {Data Structures and Algorithms}
-        \item Principles of Communication
-        
-        \item  {Switching Theory and Digital Logic}
-	\item {Basic Graph Theory}
-	\item {Discrete Mathematics for Computer Science}
+	\item Software Defined Networking
+	\item Computer Architecture
+	\item Program Analysis
+ 	\item Concurrent Programming
+\end{itemize}
+}
+\item{\bf ML and CV Courses:}
+{\begin{itemize}
+	\item Kernel Methods for Pattern Analysis
+	\item Pattern Recognition
+%	\item Artificial Intelligence
+%\end{itemize}
+%}
+
+%\item{\bf Computer Vision Courses:}
+%{\begin{itemize}
 	
+ 	\item Computer Vision
+	\item Digital Video Processing
+\end{itemize}
+}
+\item{\bf Core Courses:}
+{\begin{itemize}
+	\item Computer Networks
+	\item Computer System Design
+	\item Compiler Design
+	\item Operating Systems
+	\item Computer Organization
+	% 	\item Paradigms of Programming
+        \item Data Structures and Algorithms
+	\item Introduction to Database Systems
+	\item Languages, Machines and Computations	
+	%        \item Probability, Statistics and Stochastic Processes
+
+
+
+%         \item Principles of Communication
+%         
+%         \item  {Switching Theory and Digital Design}
+% 	\item {Basic Graph Theory}
+% 	\item {Discrete Mathematics for Computer Science}
+% 	
         
            \end{itemize}
       }	
       \end{itemize}
     }
- \begin{itemize}
- \item {\bf Key Labs:}
- {
-  \begin{itemize}
-    \item Advanced Programming Lab (C++) \let\thefootnote\relax\footnotetext{*Currently Enrolled} 
-    \item Assembly Language Lab
-    \item {C Programming Lab}
-    \item {Digital Design Lab}
-     
-  \end{itemize}
- }
-\end{itemize}
+ %\begin{itemize}
+ %\item {\bf Key Labs:}
+ %{
+ % \begin{itemize}
+ %   \item Computer System Design Lab*\let\thefootnote\relax\footnotetext{*Currently Enrolled} 
+ %   \item Networks Lab
+ %   \item Software Engineering Lab
+ %   \item Language Translators Lab
+ %   \item Operating Systems Lab
+%     \item Advanced Programming Lab (C++) 
+%     \item Assembly Language Lab
+%     \item {C Programming Lab}
+%     \item {Digital Design Lab}
+%      
+%  \end{itemize}
+% }
+%\end{itemize}
 %\bigskip
-\vspace{5em}
+%\vspace{5em}
 %\columnbreak
-%\vfill\eject
+%
 %{\begin{itemize}
 %       \item{\bf Key Courses (Currently Enrolled):}
 %      {
@@ -108,12 +177,152 @@
 }
 \end{multicols}
 %%%%%%%%%%%%%%%%%%
+\section{Projects}
+\begin{itemize}
+     \credential
+    {{SDC}}
+    {IIT Madras}
+    {Dual Degree Project}
+    {2015}
+    {
+     \begin{itemize}
+     \item SDC\footnote{Stupid D Compiler [https://github.com/deadalnix/SDC]} is an open source compiler for the D language.
+     \item Contributing to it by implementing interface handling in the language.
+     \end{itemize}
+
+    }
+   \credential
+    {Automatic tracking of object silhouette under camera movement}
+    {IIT Madras}
+    {Project under Dr. Sukhendu Das}
+    {Jan-May, 2015}
+    {
+     \begin{itemize}
+      \item We track an object in motion in a situation where the camera may also be moving, using unsupervised methods.
+      \item This is done using sparse segmentation of point trajectories followed by the application of graph cut algorithm.
+     \end{itemize}
+
+    }
+   
+   \credential
+    {{LLC Optimisation}}
+    {Bangalore, India}
+    {Intel Technology India Private Limited}
+    {May-July, 2014}
+    {
+     \begin{itemize}
+      \item Analyzed and studied dumps of the Last Level Cache (LLC) from several benchmarks. 
+      \item Used the statistics obtained along with other ideas to develop and simulate feasible models for the LLC.
+     \end{itemize}
+
+    }
+%    \bigskip 
+   
+   \credential
+    {{Link Plus Plus}}
+    {IIT Madras}
+    {Google Developers GeekUp Hackathon}
+    {October, 2014}
+    {
+     \begin{itemize}
+      \item Developed a Chrome extension to share links with higlighting in webpages using a Google App Engine backend.
+     \end{itemize}
+
+    }
+%    \bigskip 
+   
+   
+   
+    
+%    \bigskip 
+
+   \credential
+    {{Automatic Guitar Transcription}}
+    {IIT Madras}
+    {Project under Dr. Sukhendu Das}
+    {Jan-May, 2014}
+    {
+     \begin{itemize}
+      \item A Computer Vision based system which transcribes the tablatures from a video showing musicians playing a guitar.
+     \end{itemize}
+
+    }
+%    \bigskip 
+
+   \credential
+    {{Parallel Algorithm for Triangle Counting}}
+    {IIT Madras}
+    {Project under Dr. Shankar Balachandran}
+    {Jan-May, 2014}
+    {
+     \begin{itemize}
+      \item Parallel Algorithm for Triangle Counting in an undirected graph and using it to find clustering coefficient of a known dataset.
+     \end{itemize}
+
+    }
+  % \bigskip 
+    \credential
+    {{Note It}}
+    {IIT Madras}
+    {Microsoft code.fun.do Hackathon}
+    {January, 2014}
+    {
+     \begin{itemize}
+      \item Developed a Windows Phone app which allows one to type notes while it records audio in the background. 
+      \item This audio can later be seeked by tapping on a particular word in the saved notes.
+     \end{itemize}
+
+    }
+%    \bigskip 
+
+   \credential
+    {{Minijava to MIPS Compiler}}
+    {IIT Madras}
+    {Project under Dr. Krishna Nandivada}
+    {Aug-Dec, 2013}
+    {
+     \begin{itemize}
+      \item Developed a compiler for Minijava (a subset of Java) to MIPS. 
+      \item Implemented lexical analysis, typechecking of MiniJava programs and conversion to machine-level code.
+     \end{itemize}
+
+    }
+%    \bigskip 
+       
+   \credential
+    {{Gamification Rule Engine}}
+    {Pune, India}
+    {{Siminars, Inc.}}
+    {May 2013 -- July, 2013}
+ { \begin{itemize}
+      \item{Built a rule engine for the implementation of gamification on siminars.com}
+      \end{itemize}
+    }
+%     \bigskip
+   \credential
+    {{CloudXCloud}}
+    {IIT Madras}
+    {{Yahoo! HackU 2013}}
+    {2013} 
+    {\begin{itemize}
+     \item Developed a GUI application for managing Google Drive and Dropbox accounts simultaneously.
+     \item The application also allowed for transferring of files amongst the two services.
+    \end{itemize}
+}
+   
+   
+\end{itemize}
+
+%\begin{itemize}
+ %  \credential {{CloudXCloud}}
+  %\item Designing an events accumulating website (In progress)
+%\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Achievements \& Awards}
 \begin{itemize}
-  \item {\bf Yahoo! HackU 2012:} Special Mention Prize
-    \begin{itemize}
-     \item Built a tool to crawl through an event database using YQL and jQuery
-    \end{itemize}
+  \item {\bf Yahoo! HackU 2012:} Special Mention Prize   
   \item {\bf IIT JEE 2011: }All India Rank 342 
   \item {\bf Nath Valley School, 2007:} Awarded the best software project for implementing a library management system using Visual Basic
   \item {\bf National Cyber Olympiad} 
@@ -127,75 +336,26 @@
     \end{itemize}
   \end{itemize}  % End Achievements list
 %%%%%%%%%%%%%%%%%%%%%%
-%\pagebreak
+% \pagebreak
 \section{Skills}
 \begin{itemize}
-  \item {\bf Languages:} C/C++, Python, Visual Basic, Verilog(Basics), x86 Assembly(Basics), HTML, CSS, PHP, JavaScript	
+  \item {\bf Languages:} C/C++, Python, Java, D, Cilk Plus, Visual Basic, HTML, CSS, JavaScript	
   \item {\bf Operating Systems:} Proficient in Windows and Linux
-  \item {\bf Software Development:} Android (Java and PhoneGap; Basics)
+  \item {\bf Software Development:} Android
   \item {\bf Tools:} Emacs, Git
-  \item {\bf Others:} Tornado(Basics), MongoDB(Basics)
+  \item {\bf Others:} LLVM, Tornado, Pthreads, Google App Engine
   \end{itemize} % End Skills list
-\pagebreak
-%%%%%%%%%%%%%%%%%%%%%%
-\section{Projects}
-\begin{itemize}
-   \credential
-    {{Events App}}
-    {Chennai, India}
-    {Self Project (In Progress)}
-    {2013}
-    {
-     \begin{itemize}
-      \item Developing an events accumulating web application, which collects events from multiple pubilc sources and displays them in a chronological order.
-     \end{itemize}
-
-    }
-    
-   \bigskip 
-
-   
-   \credential
-    {{Gamification Rule Engine}}
-    {Pune, India}
-    {{Siminars, Inc.}}
-    {May. 2013 -- July, 2013}
- { \begin{itemize}
-      \item{Built a rule engine for the implementation of gamification throughout siminars.com}
-      \end{itemize}
-    }
-    \bigskip
-   \credential
-    {{CloudXCloud}}
-    {IIT Madras}
-    {{Yahoo! HackU 2013}}
-    {2013} 
-    {\begin{itemize}
-     \item Developed a GUI application for managing Google Drive and Dropbox accounts simultaneosly, which also allowed for transferring of files amongst the two services.
-    \end{itemize}
-}
-   \bigskip
-   
-\end{itemize}
-
-%\begin{itemize}
- %  \credential {{CloudXCloud}}
-  %\item Designing an events accumulating website (In progress)
-%\end{itemize}
-
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Co-curricular Activities}
 \begin{itemize}
   \item {\bf Coordinator, Hackfest, Shaastra 2013\footnote{Shaastra is IIT Madras' student-run technical festival}: } Organized a FOSS workshop involving four projects (KDE, Tor, Mediawiki and GNU Mailman) for 50 participants, mentored by people who had done GSoC\footnote{Google Summer of Code} in the respective projects.
   \end{itemize} 
-   \begin{itemize}
-  \item {\bf Institute Mobile Operations Team:} Developing a cross-platform mobile application for the institute
-  \end{itemize} 
+   
   % End PoR
-\section{Extra Curricular Activities}
-\begin{itemize}
- \item {\bf Tabla:} Cleared Level 1 of ABGMM\footnote{Akhil Bhartiya Gandharva Mahavidyalaya Mandal, Mumbai} exam
-\end{itemize}
+% \section{Extra Curricular Activities}
+% \begin{itemize}
+%  \item {\bf Tabla:} Cleared Level 1 of ABGMM\footnote{Akhil Bhartiya Gandharva Mahavidyalaya Mandal, Mumbai} exam
+% \end{itemize}
 
 \end{document}
 

@@ -86,14 +86,17 @@
     }
   }
 }
+\newcommand*{\@rollno}{CS11B048}
+\newcommand*{\rollno}[1]{}
 \address{}
 
-% Display the header at the beginning of the document
 \newcommand*{\resumeheader}{
-  \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
-    \textbf{\href{\@website}{\LARGE \@author}} & \href{mailto:\@email}{\@email} \\
-    {\footnotesize \@address}           & \href{\@website}{\@website}
-  \end{tabular*}
+  %\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+    \textbf{\LARGE \@author}\\   
+    { \@rollno} 
+    \includegraphics[scale=0.25, right]{logo.png} 
+
+  %\end{tabular*}
   \\
   \vspace{0.1in}
 }
